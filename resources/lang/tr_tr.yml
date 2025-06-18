@@ -11,7 +11,7 @@ Plugin:
 
 Messages:
 
-  command-permission-error: "[P]&c Bu komutu kullanma yetkiniz yok!"
+  command-permission-error: "[P]&c Bu komutu kullanmaya yetkin yok."
   command-sender-error: "[P]&c Bu komutu çalıştıramazsın!"
   command-version-error: "[P]&c Eski sunucu sürümü! (&b%Version%&c)\n[P]&c Bu özelliği kullanabilmek için sunucunuzu yükseltin!"
 

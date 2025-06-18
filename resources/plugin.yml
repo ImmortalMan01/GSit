@@ -42,6 +42,7 @@ commands:
     usage: /<command> [toggle]
     aliases: [crawl]
     description: Crawl command
+    permission: GSit.Crawl
 
   gsitreload:
 
@@ -109,7 +110,7 @@ permissions:
       GSit.Spin: true
 
   GSit.Lay:
-    default: true
+    default: op
     description: Lay command | Permission
 
   GSit.BellyFlop:
@@ -117,7 +118,7 @@ permissions:
     description: BellyFlop command | Permission
 
   GSit.Spin:
-    default: true
+    default: op
     description: Spin command | Permission
 
   GSit.Crawl.*:
@@ -129,7 +130,7 @@ permissions:
       GSit.CrawlToggle: true
 
   GSit.Crawl:
-    default: true
+    default: op
     description: Crawl command | Permission
 
   GSit.CrawlSneak:
